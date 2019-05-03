@@ -165,6 +165,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.colt.enigma.ColtEnigma;
 import com.colt.enigma.fragments.SleepMode;
 
+import com.android.settings.livedisplay.LiveDisplaySettings;
+
 public class SettingsGateway {
 
     /**
@@ -317,6 +319,9 @@ public class SettingsGateway {
             ColtEnigma.class.getName(),
             RunningServices.class.getName(),
             SleepMode.class.getName(),
+
+            // LiveDisplay
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
